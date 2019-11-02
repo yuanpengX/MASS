@@ -886,7 +886,7 @@ if __name__ == '__main__':
     parser.add_argument('--gpu', type=str, default="0", help='GPU ID')
     parser.add_argument('--fold', type=str, default="0", help='fold num')
     parser.add_argument('--data', type=str, default="full_data", help='fold num')
-    parser.add_argument('--sn', type=int, default=2, help='fold num')
+    parser.add_argument('--sn', type=int, default=2, help='species num')
     args = parser.parse_args()
     import os
 
