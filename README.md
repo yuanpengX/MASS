@@ -11,10 +11,8 @@ We stronly recommend you to have Anaconda3 installed.
 ### Must installed packages
 
 tensorflow  1.13.1
+
 tensorlayer 1.10.1
-
-
-## Usage
 
 ## Utility files
 
@@ -32,5 +30,5 @@ tensorlayer 1.10.1
 
 *config.py* contains basic configuration for training
 
-
+*make_motif.py* generate motifs based on a trained model
 
