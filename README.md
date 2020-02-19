@@ -29,7 +29,7 @@ This repository has been tested on Ubuntu 16.04. We strongly recommend you to ha
 - You can run the script `./src/main.py` to generate prediction on test data, and the results will be stored in `./predict_result`. It will also report AUPRC and AUPR based on the given data and label. Sample code:
 ```bash
 cd src
-python ./src/main.py --name mass --data full_data --sn 8 --mode test --fold 0 --gpu 0
+python main.py --name mass --data full_data --sn 8 --mode test --fold 0 --gpu 0
 ```
 
 ### Train new models
@@ -38,7 +38,7 @@ python ./src/main.py --name mass --data full_data --sn 8 --mode test --fold 0 --
 
 ```bash
 cd src
-python ./src/main.py --name mass --data full_data --sn 8 --mode train --gpu 0
+python main.py --name mass --data full_data --sn 8 --mode train --gpu 0
 ```
 ## Utility files
 
