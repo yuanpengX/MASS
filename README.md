@@ -20,7 +20,7 @@ This repository has been tested on Ubuntu 16.04. We strongly recommend you to ha
 
 - Download complete data from the [RMBase 2.0](http://rna.sysu.edu.cn/rmbase/) or [ENSEMBL](http://www.ensembl.org), and unzip these data to `./data/YOUR_DATA_NAME`.
 - You can preprocess your own data with `./src/pocessing_pipeline.py`, and move the processed data to `./data/YOUR_DATA_NAME`.
-- For the training process, you should store positive samples in `data/YOU_DATA_DIR/positive_samples/train` and negative samples in `./data/YOUR_DATA_NAME/negative_samples/train`.
+- For the training process, you should store positive samples in `data/YOU_DATA_NAME/positive_samples/train` and negative samples in `./data/YOUR_DATA_NAME/negative_samples/train`.
 
 ## Get Started
 
