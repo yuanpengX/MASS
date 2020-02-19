@@ -1,6 +1,6 @@
 # MASS
 
-*MASS* is a deep learning framework for multi-species RNA modification analysis by integrating RNA modification data from multiple species. This is an instruction of prediction RNA modification using *MASS*
+*MASS* is a deep learning framework for multi-species RNA modification analysis by integrating RNA modification data from multiple species. This is an instruction of prediction RNA modification using *MASS*.
 
 ## Dependencies
 
@@ -14,18 +14,18 @@ These repository has been tested on Ubuntu 16.04. We stronly recommend you to ha
 
 - pandas 0.12.0
 
-- CD-HIT[http://weizhongli-lab.org/cd-hit/]
+- [CD-HIT](http://weizhongli-lab.org/cd-hit/)
 
 ## Data Preparation
 
 - Download complete data from the line[#], and unzip the data to the data folder.
-- You can preprocess your own data with `.\src\pocessing_pipeline.py`, and move the processed datqa to `./data`
+- You can preprocess your own data with `./src/pocessing_pipeline.py`, and move the processed datqa to `./data`
 
 
 ## Get Started
 
 ### Test with pre-trained models
-- The trained multi-speices model were stored in `.\checkpoint`
+- The trained multi-speices model were stored in `./checkpoint`
 - run the scipt `src/main.py` to generate prediction on test data, it will also report AUPRC and AUPR on the given data. Example code:
 ```bash
 cd src
