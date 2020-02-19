@@ -1,12 +1,12 @@
 # MASS
 
-*MASS* is a deep learning framework for multi-species RNA modification analysis by integrating RNA modification data from multiple species. This is an instruction of prediction RNA modification using *MASS*.
+*MASS* is a deep learning framework for multi-species RNA modification analyses by integrating RNA modification data from multiple species. This is an instruction of predicting RNA modification using *MASS*.
 
 ## Dependencies
 
-These repository has been tested on Ubuntu 16.04. We stronly recommend you to have Anaconda3 installed, which contants most of required packages for running this model.
+These repository has been tested on Ubuntu 16.04. We strongly recommend you to have Anaconda3 installed, which contains most of required packages for running this model.
 
-### Must installed packages
+### Must installed packages or softwares
 
 - tensorflow  1.8.0
 
@@ -18,9 +18,9 @@ These repository has been tested on Ubuntu 16.04. We stronly recommend you to ha
 
 ## Data Preparation
 
-- Download complete data from the line[#], and unzip the data to the data folder.
-- You can preprocess your own data with `./src/pocessing_pipeline.py`, and move the processed datqa to `./data`
-
+- Download complete data from the [RMBase 2.0](http://rna.sysu.edu.cn/rmbase/) or [ENSEMBL](http://www.ensembl.org)), and unzip these data to the data folder.
+- You can preprocess your own data with `./src/pocessing_pipeline.py`, and move the processed datqa to `./data`.
+- For the training process, you should store positive samples in `data/YOU_DATA_DIR/positive_samples/train` and negative samples in `data/YOUR_DATA_NAME/negative_samples/train`.
 
 ## Get Started
 
