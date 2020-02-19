@@ -26,7 +26,7 @@ This repository has been tested on Ubuntu 16.04. We strongly recommend you to ha
 
 ### Test with pre-trained models
 - The trained multi-speices model were stored in `./checkpoint`
-- run the script `src/main.py` to generate prediction on test data, it will also report AUPRC and AUPR on the given data. Example code:
+- You can run the script `./src/main.py` to generate prediction on test data, and the results will be stored in `./predict_result`. It will also report AUPRC and AUPR based on the given data and label. Sample code:
 ```bash
 cd src
 python ./src/main.py --name mass --data full_data --sn 8 --mode test --fold 0 --gpu 0
@@ -34,7 +34,7 @@ python ./src/main.py --name mass --data full_data --sn 8 --mode test --fold 0 --
 
 ### Train new models
 
-- You can train mass with you own data
+- You can also train mass with you own data:
 
 ```bash
 cd src

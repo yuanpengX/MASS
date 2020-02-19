@@ -498,7 +498,7 @@ class M6ANetShare():
         else:
             s = ''
 
-        namedir = 'predict_result/' + tl.global_flag['name'] + s+ '_%d/'%config.NEG_POS_RATIO
+        namedir = '../predict_result/' + tl.global_flag['name'] + s+ '_%d/'%config.NEG_POS_RATIO
         tl.files.exists_or_mkdir(namedir)
         np.savetxt(namedir + tl.global_flag['name'] + s+ '_%d_'%config.NEG_POS_RATIO  + 'label.txt', np.array(onehots)[:,1],)
         np.savetxt( namedir + tl.global_flag['name'] + s + '_%d_'%config.NEG_POS_RATIO  + 'probs.txt', np.array(probbs)[:,1],)
