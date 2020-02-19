@@ -18,15 +18,15 @@ These repository has been tested on Ubuntu 16.04. We strongly recommend you to h
 
 ## Data Preparation
 
-- Download complete data from the [RMBase 2.0](http://rna.sysu.edu.cn/rmbase/) or [ENSEMBL](http://www.ensembl.org)), and unzip these data to the data folder.
-- You can preprocess your own data with `./src/pocessing_pipeline.py`, and move the processed datqa to `./data`.
-- For the training process, you should store positive samples in `data/YOU_DATA_DIR/positive_samples/train` and negative samples in `data/YOUR_DATA_NAME/negative_samples/train`.
+- Download complete data from the [RMBase 2.0](http://rna.sysu.edu.cn/rmbase/) or [ENSEMBL](http://www.ensembl.org), and unzip these data to `./data/YOUR_DATA_NAME`.
+- You can preprocess your own data with `./src/pocessing_pipeline.py`, and move the processed datqa to `./data/YOUR_DATA_NAME`.
+- For the training process, you should store positive samples in `data/YOU_DATA_DIR/positive_samples/train` and negative samples in `./data/YOUR_DATA_NAME/negative_samples/train`.
 
 ## Get Started
 
 ### Test with pre-trained models
 - The trained multi-speices model were stored in `./checkpoint`
-- run the scipt `src/main.py` to generate prediction on test data, it will also report AUPRC and AUPR on the given data. Example code:
+- run the script `src/main.py` to generate prediction on test data, it will also report AUPRC and AUPR on the given data. Example code:
 ```bash
 cd src
 python ./src/main.py --name mass --data full_data --sn 8 --mode test --fold 0 --gpu 0
