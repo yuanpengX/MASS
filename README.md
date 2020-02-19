@@ -4,7 +4,7 @@
 
 ## Dependencies
 
-This repository has been tested on Ubuntu 16.04. We strongly recommend you to have Anaconda3 installed, which contains most of required packages for running this model.
+This repository has been tested on Ubuntu 16.04. We strongly recommend you to have [Anaconda3](https://www.anaconda.com/distribution/) installed, which contains most of required packages for running this model.
 
 ### Must installed packages or softwares
 
