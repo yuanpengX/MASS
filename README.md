@@ -48,7 +48,6 @@ python main.py --name mass --data full_data --sn 8 --mode train --gpu 0
  
  - --name: experiment name
  - --gpu: gpu id, currently MASS can only run on single GPU
- - --fold: fold id just for cross validation
  - --data: data source for trainning for 
  - --sn: number of species
  - --fold:  index for species in `./src/config.sample_names`
